@@ -93,28 +93,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-      <section className="py-20 bg-gradient-to-br from-primary/5 via-secondary/5 to-accent/5">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-4xl font-bold mb-6">Подписывайтесь на обновления</h2>
-            <p className="text-muted-foreground mb-8">
-              Получайте свежие статьи и эксклюзивный контент прямо на почту
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
-              <input 
-                type="email" 
-                placeholder="Ваш email"
-                className="flex-1 px-6 py-3 rounded-full border-2 border-border focus:border-primary outline-none transition-colors"
-              />
-              <Button size="lg" className="rounded-full px-8">
-                Подписаться
-                <Icon name="Send" size={18} className="ml-2" />
-              </Button>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   );
 };
