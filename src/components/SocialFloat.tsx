@@ -32,6 +32,16 @@ const SocialFloat = () => {
       >
         <span className="text-xl text-white font-bold">VK</span>
       </a>
+      
+      <a 
+        href="https://instagram.com/username" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="group inline-flex items-center justify-center w-14 h-14 rounded-full bg-gradient-to-br from-[#E1306C]/90 to-[#C13584]/90 backdrop-blur-sm hover:from-[#E1306C] hover:to-[#C13584] transition-all duration-300 hover:shadow-xl hover:shadow-pink-500/50 hover:scale-110"
+        aria-label="Instagram"
+      >
+        <Icon name="Instagram" size={24} className="text-white" />
+      </a>
     </div>
   );
 };
