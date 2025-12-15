@@ -1,4 +1,5 @@
 import Navigation from '@/components/Navigation';
+import SocialFloat from '@/components/SocialFloat';
 import { Card, CardContent, CardFooter } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -53,6 +54,7 @@ const Shop = () => {
   return (
     <div className="min-h-screen">
       <Navigation />
+      <SocialFloat />
       
       <section className="pt-32 pb-20 px-4">
         <div className="container mx-auto">
