@@ -42,9 +42,38 @@ const Home = () => {
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
               Творчество без границ
             </h1>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
               Делюсь вдохновением, процессом и уникальными работами в мире креативного дизайна
             </p>
+            
+            <div className="flex items-center justify-center gap-4">
+              <a 
+                href="https://t.me/username" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="group inline-flex items-center justify-center w-14 h-14 rounded-full bg-gradient-to-br from-primary/20 to-primary/10 hover:from-primary hover:to-secondary transition-all duration-300 hover:shadow-lg hover:shadow-primary/30 hover:scale-110"
+              >
+                <Icon name="Send" size={24} className="text-primary group-hover:text-white transition-colors" />
+              </a>
+              
+              <a 
+                href="https://wa.me/1234567890" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="group inline-flex items-center justify-center w-14 h-14 rounded-full bg-gradient-to-br from-secondary/20 to-secondary/10 hover:from-[#25D366] hover:to-[#128C7E] transition-all duration-300 hover:shadow-lg hover:shadow-secondary/30 hover:scale-110"
+              >
+                <Icon name="MessageCircle" size={24} className="text-secondary group-hover:text-white transition-colors" />
+              </a>
+              
+              <a 
+                href="https://vk.com/username" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="group inline-flex items-center justify-center w-14 h-14 rounded-full bg-gradient-to-br from-accent/20 to-accent/10 hover:from-[#0077FF] hover:to-[#0055CC] transition-all duration-300 hover:shadow-lg hover:shadow-accent/30 hover:scale-110"
+              >
+                <span className="text-2xl text-accent group-hover:text-white transition-colors font-bold">VK</span>
+              </a>
+            </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
